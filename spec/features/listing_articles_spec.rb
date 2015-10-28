@@ -4,7 +4,7 @@ RSpec.feature "Listing Articles" do
 	
 	before do 
 		@article1 = Article.create(title: "The First Article", body: "Body of first artile")
-		@article1 = Article.create(title: "The Second Article", body: "Body of second article")
+		@article2 = Article.create(title: "The Second Article", body: "Body of second article")
 	end
 
 	scenario "List all articles" do
